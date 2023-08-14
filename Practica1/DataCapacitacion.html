@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Data Capacitacion</title>
+    <link href="./DataCapacitacion.css" rel="stylesheet">
+  </head>
+  <body>
+    <H1> Data Capacitacion</H1>
+    <p>Favor de proveer la Informacion Solicitada</p>
+    <fieldset>
+      <label for="first-name">Ingrese sus Nombres: <input id="first-name" name="first-name" type="text" required /></label>
+      <label for="last-name">Ingrese sus Apellidos: <input id="last-name" name="last-name" type="text" required /></label>
+      <label for="email">Correo Electronico: <input id="email" name="email" type="email" required /></label>
+      <label for="new-password">Crear contraseña<em></em>: <input id="new-password" name="new-password" type="password" pattern="[a-z0-5]{8,}" required /></label>
+    </fieldset>
+    <fieldset>
+      <label for="personal-account"><input id="personal-account" type="radio" name="account-type" class="inline" /> Cuenta Personal</label>
+      <label for="business-account"><input id="business-account" type="radio" name="account-type" class="inline" /> Cuenta de Negocios</label>
+      <label for="terms-and-conditions">
+        <input id="terms-and-conditions" type="checkbox" required name="terms-and-conditions" class="inline" /> Acepto Terminos y Condiciones</a>
+      </label>
+    </fieldset>
+    <fieldset>
+      <label for="profile-picture">Proporcione foto de perfil: <input id="profile-picture" type="file" name="file" /></label>
+      <label for="age">Ingrese su edad: <input id="age" type="number" name="age" min="13" max="120" /></label>
+      <label for="referrer">Como se entero de nosotros?
+        <select id="referrer" name="referrer">
+          <option value="">(select one)</option>
+          <option value="1">Instagram</option>
+          <option value="2">facebook</option>
+          <option value="3">Twitter</option>
+          <option value="4">Other</option>
+        </select>
+      </label>
+      <label for="bio">Cuentenos mas sobre usted:
+        <textarea id="bio" name="bio" rows="3" cols="30" placeholder=" Me interesa mejorar mis habilidades profesioinales porque..."></textarea>
+      </label>
+    </fieldset>
+    <input type="submit" value="Submit" />
+  </form>
+  <footer>
+    <p>
+      <a>Visite nuestra pagina web</a>
+    </p>
+    <p class="empresa">Data Capacitacion</p>
+  </footer>
+  </body>
+</html>
